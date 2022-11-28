@@ -1,11 +1,14 @@
 import React from 'react'
-import styled from 'styled-components'
+import HeroSection from './components/HeroSection'
+
+
 
 const Home = () => {
   return (
-    <Wrapper className='test'>Home</Wrapper>
+    <HeroSection name = "Mehdi Store"/>
   )
 }
 
-const Wrapper = styled.section``;
+
+
 export default Home
